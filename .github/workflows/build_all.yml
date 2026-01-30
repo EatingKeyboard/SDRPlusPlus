@@ -1,12 +1,5 @@
 name: Build Binaries
-
-on:
-    push:
-        branches-ignore:
-        - nightly
-    pull_request:
-        branches-ignore:
-        - nightly
+on: workflow_dispatch
 
 env:
     # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
