@@ -13,6 +13,7 @@
 #include <cmath>
 
 #define CONCAT(a, b) ((std::string(a) + b).c_str())
+#define M_PI 3.141593
 
 SDRPP_MOD_INFO{
     /* Name:            */ "plutosdr_source",
