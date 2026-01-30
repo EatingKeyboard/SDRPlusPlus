@@ -255,8 +255,6 @@ jobs:
     create_full_archive:
         needs: [
           'build_windows',
-          'build_macos_intel',
-          'build_macos_arm',
           'build_debian_bullseye_amd64',
           'build_debian_bullseye_aarch64',
           'build_ubuntu_focal_amd64',
